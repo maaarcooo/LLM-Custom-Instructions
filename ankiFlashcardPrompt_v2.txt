@@ -1,13 +1,19 @@
-----Prompt1----
+--------Prompt1--------
 Using this PDF as a reference, create flashcards for Anki deck called [Topic Name].
-Make sure all bolded or highlighted key content is included.
+Make sure all bolded or highlighted key content and Higher Tier content are included.
 Use simple language, keep each flashcard as concise as possible, try to simplify things as much as possible.
 Format each flashcard as Q: [Question] then next line A: [Answer]
 
-----Prompt2----
+--------Prompt2--------
 [separate by commas]
 Convert the generated flashcards into a plain text file, with each line representing one flashcard in the format: Question, Answer
+Ensure that commas are only used to separate the question from the answer.
+[if Artifacts not used]
+Convert the generated flashcards into a plain text file Artifacts, with each line representing one flashcard in the format: Question, Answer
 Ensure that commas are only used to separate the question from the answer.
 
 [separate by pipe]
 Convert the generated flashcards into a plain text file, with each line representing one flashcard in the format: Question | Answer
+[if Artifacts not used]
+Convert the generated flashcards into a plain text file Artifacts, with each line representing one flashcard in the format: Question | Answer
+# Artifacts uses in Claude
