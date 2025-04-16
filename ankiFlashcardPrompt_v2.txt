@@ -8,12 +8,12 @@ Format each flashcard as Q: [Question] then next line A: [Answer]
 [separate by commas]
 Convert the generated flashcards into a plain text file, with each line representing one flashcard in the format: Question, Answer
 Ensure that commas are only used to separate the question from the answer.
-[if Artifacts not used]
+[if Artifacts not activated]
 Convert the generated flashcards into a plain text file Artifacts, with each line representing one flashcard in the format: Question, Answer
 Ensure that commas are only used to separate the question from the answer.
 
 [separate by pipe]
 Convert the generated flashcards into a plain text file, with each line representing one flashcard in the format: Question | Answer
-[if Artifacts not used]
+[if Artifacts not activated]
 Convert the generated flashcards into a plain text file Artifacts, with each line representing one flashcard in the format: Question | Answer
 # Artifacts uses in Claude
