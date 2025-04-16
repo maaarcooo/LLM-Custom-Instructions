@@ -1,0 +1,1 @@
+using this pdf as reference, can you create flashcards for anki deck called Chapter 4.2 Regular languages. making sure all blue coloured important texts are covered, use simple language, try to shorten eachflashcard as much as possible, try to simplify things as much as possible. do it in the fashion of Q: then next line A:
