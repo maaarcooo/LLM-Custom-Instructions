@@ -1,5 +1,7 @@
 Prompt 1
-Using this pdf as reference, create flashcards for Anki deck called [Topic name]. Making sure all bold or highlighted important texts are covered, use simple language, try to shorten each flashcard as much as possible, try to simplify things as much as possible. Do it in the fashion of Q: then next line A:
+Using this pdf as reference, create flashcards for Anki deck called [Topic name].
+Making sure all bold or highlighted important texts are covered, use simple language, try to shorten each flashcard as much as possible, try to simplify things as much as possible.
+Do it in the fashion of Q: then next line A:
 
 Prompt 2
 Convert the flashcards into text file with each line a flashcard in format: Question, Answer.
