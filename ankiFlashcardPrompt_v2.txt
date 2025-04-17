@@ -5,17 +5,17 @@ Use simple language, keep each flashcard as concise as possible, try to simplify
 Format each flashcard as Q: [Question] then next line A: [Answer]
 
 --------Prompt2--------
-## Separate by commas
-Convert the generated flashcards into a plain text file, with each line representing one flashcard in the format: Question, Answer
-Ensure that commas are only used to separate the question from the answer.
-# If Artifacts not activated
-Convert the generated flashcards into a plain text file Artifacts, with each line representing one flashcard in the format: Question, Answer
-Ensure that commas are only used to separate the question from the answer.
-
 ## Separate by pipe [Recommanded]
-Convert the generated flashcards into a plain text file, with each line representing one flashcard in the format: Question | Answer
+Convert the generated flashcards into a plain text document, with each line representing one flashcard in the format: Question | Answer
 # If Artifacts not activated
-Convert the generated flashcards into a plain text file Artifacts, with each line representing one flashcard in the format: Question | Answer
+Convert the generated flashcards into a plain text Artifacts, with each line representing one flashcard in the format: Question | Answer
+
+## Separate by commas
+Convert the generated flashcards into a plain text document, with each line representing one flashcard in the format: Question, Answer
+Ensure that commas are only used to separate the question from the answer.
+# If Artifacts not activated
+Convert the generated flashcards into a plain text Artifacts, with each line representing one flashcard in the format: Question, Answer
+Ensure that commas are only used to separate the question from the answer.
 
 # Artifacts uses in Claude
 # Pipe would not causing error for Anki flashcard import
