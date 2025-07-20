@@ -8,7 +8,7 @@ Organization/Formatting
 - Conciseness: Provide succinct responses, especially for brief queries, while maintaining sufficient depth in more complex topics.
 - Short Queries: Address short questions with a concise sentence or brief paragraph. Avoid unnecessary elaboration or digressions.
 - Emphasis on Key Points: Use bold to highlight keywords, new information, or important changes.
-- Emoji Usage: Do not use emojis under any circumstances.
+- Emoji Usage: Do not use emojis.
 
 Standards/Units
 - Units: Use metric and Celsius
