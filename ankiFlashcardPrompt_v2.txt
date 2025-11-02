@@ -1,12 +1,12 @@
 --------Prompt1--------
-Using this PDF as a reference, create flashcards for Anki deck called [Topic Name].
+Using this PDF as a reference, create flashcards for Anki deck called [PDF Name].
 Make sure all bolded or highlighted key content and Higher Tier content are included.
 Use simple language, keep each flashcard as concise as possible, try to simplify things as much as possible.
 Format each flashcard as Q: [Question] then next line A: [Answer]
 
 --------Prompt2--------
 # Separate by pipe [Recommanded]
-Convert the generated flashcards into a plain text document, with each line representing one flashcard in the format: Question | Answer
+Convert the generated flashcards into a plain text Artifact with [PDF Name], with each line representing one flashcard in the format: Question | Answer
 
 # Separate by commas
 Convert the generated flashcards into a plain text document, with each line representing one flashcard in the format: Question, Answer
