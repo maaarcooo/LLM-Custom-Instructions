@@ -6,7 +6,7 @@ Format each flashcard as Q: [Question] then next line A: [Answer]
 
 --------Prompt2--------
 # Separate by pipe [Recommanded]
-Create an text file, then convert the generated flashcards into the Artifact with each line representing one flashcard in the format: Question | Answer
+Create an text file, then convert the generated flashcards into the file with each line representing one flashcard in the format: Question | Answer
 
 # Separate by commas
 Create an text file, then convert the generated flashcards into the Artifact with each line representing one flashcard in the format: Question, Answer
