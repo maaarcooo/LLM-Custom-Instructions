@@ -1,6 +1,6 @@
 --------Pick topic from sources--------
 Using these PDF notes as a reference, write a concise notes on the topic "[Insert topic here]" only.
-The the revision notes should covered all the necessary knowledge.
+The revision notes should covered all the necessary knowledge.
 Proofread the information in the reference provided, and ensure all the information in the created notes is correct.
 Create the notes in an artifact.
 
