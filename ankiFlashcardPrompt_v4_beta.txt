@@ -7,8 +7,8 @@ Guidelines:
 - Use simple, concise language
 - Include reverse cards for key definitions (for two-way recall)
 - Exclude questions that require a diagram
-- Each card should be self-contained
 Output as a text file, one flashcard per line: Question | Answer
 </Prompt>
 
 # Pipe would not causing error for Anki flashcard import
+# - Each card should be self-contained
