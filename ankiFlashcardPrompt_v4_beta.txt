@@ -1,0 +1,21 @@
+<Prompt1>
+Using this PDF as a reference, create a flashcards deck for Anki called [PDF Name].
+Make sure all bolded or highlighted key content and Higher Tier content are included.
+Use simple language, One fact per card (atomic), keep each flashcard as concise as possible, try to simplify things as much as possible.
+Include reverse cards for key definitions (for two-way recall), exclude questions that requires a diagram.
+Output as a text file with one flashcard per line: Question | Answer
+</Prompt1>
+
+<Prompt2>
+Using this PDF as a reference, create a flashcards deck for Anki called [PDF Name].
+Include all bolded/highlighted key content and Higher Tier content.
+Guidelines:
+- One fact per card (atomic)
+- Use simple, concise language
+- Include reverse cards for key definitions (for two-way recall)
+- Exclude questions that require a diagram
+Output as a text file, one flashcard per line: Question | Answer
+</Prompt2>
+
+# Pipe would not causing error for Anki flashcard import
+# Artifacts only uses in Claude
