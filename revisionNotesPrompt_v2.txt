@@ -5,3 +5,9 @@ Ensure all necessary knowledge of the topic is covered.
 Proofread the information in the reference provided, and ensure all the information in the notes is correct.
 Output as a markdown file.
 </Prompt>
+
+# Add in file access prompt if normal file upload does not work
+<fileAccessPrompt>
+[File Pathname]
+Use the Filesystem tools to access the file, then read the PDF skill and use pdfplumber to extract the PDF.
+</fileAccessPrompt>
