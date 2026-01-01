@@ -1,6 +1,32 @@
 # LLM Custom Instructions
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/maaarcooo/LLM-Custom-Instructions)](https://github.com/maaarcooo/LLM-Custom-Instructions)
+
 A collection of customizable prompts and instructions for enhancing interactions with AI assistants (ChatGPT, Claude). Focused on educational use cases including flashcard creation and study note generation.
+
+## Table of Contents
+
+- [Quick Start](#quick-start)
+- [Contents](#contents)
+- [Custom Instructions](#custom-instructions)
+- [Anki Flashcard Prompts](#anki-flashcard-prompts)
+- [Revision Notes Prompts](#revision-notes-prompts)
+- [File Access Fallback](#file-access-fallback)
+- [Version History](#version-history)
+- [License](#license)
+
+## Quick Start
+
+**Create Anki flashcards from a PDF:**
+1. Upload your PDF to ChatGPT or Claude
+2. Paste the prompt from [`ankiFlashcardPrompt_v4.txt`](ankiFlashcardPrompt_v4.txt)
+3. Import the output into Anki using `|` as field separator
+
+**Generate revision notes:**
+1. Upload your PDF to ChatGPT or Claude
+2. Paste the prompt from [`revisionNotesPrompt_v2.txt`](revisionNotesPrompt_v2.txt)
+3. Save the markdown output
 
 ## Contents
 
@@ -99,3 +125,7 @@ Use the Filesystem tools to access the file, then read the PDF skill and use pdf
 ### Revision Notes Prompts
 - **v1**: Multi-variant prompt structure
 - **v2**: Simplified with XML tags and file access fallback
+
+## License
+
+This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the material with attribution.
