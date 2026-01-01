@@ -43,20 +43,20 @@ prompts/
 │   └── archive/
 │       └── v1.txt
 └── custom-instructions/
-    ├── instructions.txt       ← Current version
+    ├── instructions-v2.txt    ← Current version
     └── archive/
-        └── legacy.txt
+        └── instructions-v1.txt
 ```
 
 | Prompt | Current | Description |
 |--------|---------|-------------|
 | Anki Flashcard | [v4](prompts/anki-flashcard/prompt-v4.txt) | Create Anki flashcard decks from PDFs |
 | Revision Notes | [v2](prompts/revision-notes/prompt-v2.txt) | Generate study notes from PDFs |
-| Custom Instructions | [current](prompts/custom-instructions/instructions.txt) | General behavioral guidelines for AI responses |
+| Custom Instructions | [v2](prompts/custom-instructions/instructions-v2.txt) | General behavioral guidelines for AI responses |
 
 ## Custom Instructions
 
-The [`prompts/custom-instructions/instructions.txt`](prompts/custom-instructions/instructions.txt) file contains general guidelines for AI responses:
+The [`prompts/custom-instructions/instructions-v2.txt`](prompts/custom-instructions/instructions-v2.txt) file contains general guidelines for AI responses:
 
 - **Tone/Language**: Neutral, professional, natural tone with clear and concise English
 - **Formatting**: Logical structure with headings, bold for key points, no emojis
