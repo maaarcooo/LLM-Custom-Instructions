@@ -5,8 +5,12 @@
 ### What Exists
 - **README.md**: Comprehensive documentation with badges, Table of Contents, Quick Start guide, file descriptions, usage instructions, and version history
 - **LICENSE**: CC-BY-4.0 (Creative Commons Attribution 4.0 International)
-- **9 prompt files**: Custom instructions, Anki flashcard prompts (v1-v4), revision notes prompts (v1-v2)
-- **Git tags**: v1.0, v2.0, v2.5, v3.0, v4.0
+- **Organized prompts directory** with 8 prompt files:
+  - `prompts/anki-flashcard/` - Flashcard prompts (v1-v4, with v4 as current)
+  - `prompts/revision-notes/` - Revision notes prompts (v1-v2, with v2 as current)
+  - `prompts/custom-instructions/` - Custom instructions (v1-v2, with v2 as current)
+  - Each category has an `archive/` subdirectory for older versions
+- **Git tags**: v1.0, v2.0, v2.5, v3.0, v4.0, v4.1
 - **GitHub releases**: Multiple releases published
 - **Repository description & topics**: Configured via GitHub settings
 - **Git history**: Active development with documentation improvements
@@ -59,11 +63,12 @@ The repository uses major.minor versioning:
 | `v2.5` | Minor update |
 | `v3.0` | Previous release |
 | `v4.0` | Major overhaul - README, LICENSE, documentation improvements |
+| `v4.1` | Directory reorganization - prompts organized into categories with archives |
 
 **Future Versioning Guidelines:**
 - Use `vX.0` for major changes (new prompts, breaking changes)
 - Use `vX.Y` for minor improvements (prompt refinements, documentation updates)
-- Continue incrementing from v3.0 (next: v3.1 or v4.0 depending on scope)
+- Continue incrementing from v4.1 (next: v4.2 or v5.0 depending on scope)
 
 **Commands for future releases:**
 ```bash
@@ -87,7 +92,38 @@ This license is ideal for prompt/content collections - allows sharing and adapta
 
 ---
 
-### 5. Optional Additions
+### 5. Directory Reorganization
+
+**Priority: Medium** | **Status: ✅ Complete**
+
+Prompts reorganized into a structured directory layout:
+```
+prompts/
+├── anki-flashcard/
+│   ├── prompt-v4.txt          ← Current version
+│   └── archive/
+│       ├── v1.txt
+│       ├── v2.txt
+│       └── v3.txt
+├── revision-notes/
+│   ├── prompt-v2.txt          ← Current version
+│   └── archive/
+│       └── v1.txt
+└── custom-instructions/
+    ├── instructions-v2.txt    ← Current version
+    └── archive/
+        └── instructions-v1.txt
+```
+
+Benefits:
+- Clear separation by prompt category
+- Archive directories preserve version history
+- Current versions easily identifiable
+- Scalable structure for future additions
+
+---
+
+### 6. Optional Additions
 
 **Priority: Low** | **Status: ⏳ Pending**
 
@@ -104,10 +140,11 @@ This license is ideal for prompt/content collections - allows sharing and adapta
 |------|--------|----------|-------|
 | README.md | ✅ Complete | Medium | Badges, ToC, Quick Start added |
 | LICENSE | ✅ Complete | High | CC-BY-4.0 |
-| Git tags | ✅ Complete | High | v1.0, v2.0, v2.5, v3.0, v4.0 |
+| Git tags | ✅ Complete | High | v1.0, v2.0, v2.5, v3.0, v4.0, v4.1 |
 | GitHub releases | ✅ Complete | High | Multiple releases published |
 | Repository description | ✅ Complete | High | Set via GitHub UI |
 | Repository topics | ✅ Complete | High | Set via GitHub UI |
+| Directory reorganization | ✅ Complete | Medium | Prompts organized into categories with archives |
 | Contributing guide | ⏳ Optional | Low | Future improvement |
 | Issue templates | ⏳ Optional | Low | Future improvement |
 
