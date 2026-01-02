@@ -101,14 +101,14 @@ Prompts organized into directories at root level:
 anki-flashcard/
 ├── prompt-v4.txt          ← Current version
 └── archive/
-    ├── v1.txt
-    ├── v2.txt
-    └── v3.txt
+    ├── prompt-v1.txt
+    ├── prompt-v2.txt
+    └── prompt-v3.txt
 
 revision-notes/
 ├── prompt-v2.txt          ← Current version
 └── archive/
-    └── v1.txt
+    └── prompt-v1.txt
 
 custom-instructions/
 ├── instructions-v2.txt    ← Current version
