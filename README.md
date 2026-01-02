@@ -20,43 +20,44 @@ A collection of customizable prompts and instructions for enhancing interactions
 
 **Create Anki flashcards from a PDF:**
 1. Upload your PDF to ChatGPT or Claude
-2. Paste the prompt from [`prompts/anki-flashcard/prompt-v4.txt`](prompts/anki-flashcard/prompt-v4.txt)
+2. Paste the prompt from [`anki-flashcard/prompt-v4.txt`](anki-flashcard/prompt-v4.txt)
 3. Import the output into Anki using `|` as field separator
 
 **Generate revision notes:**
 1. Upload your PDF to ChatGPT or Claude
-2. Paste the prompt from [`prompts/revision-notes/prompt-v2.txt`](prompts/revision-notes/prompt-v2.txt)
+2. Paste the prompt from [`revision-notes/prompt-v2.txt`](revision-notes/prompt-v2.txt)
 3. Save the markdown output
 
 ## Contents
 
 ```
-prompts/
-├── anki-flashcard/
-│   ├── prompt-v4.txt          ← Current version
-│   └── archive/
-│       ├── v1.txt
-│       ├── v2.txt
-│       └── v3.txt
-├── revision-notes/
-│   ├── prompt-v2.txt          ← Current version
-│   └── archive/
-│       └── v1.txt
-└── custom-instructions/
-    ├── instructions-v2.txt    ← Current version
-    └── archive/
-        └── instructions-v1.txt
+anki-flashcard/
+├── prompt-v4.txt          ← Current version
+└── archive/
+    ├── v1.txt
+    ├── v2.txt
+    └── v3.txt
+
+revision-notes/
+├── prompt-v2.txt          ← Current version
+└── archive/
+    └── v1.txt
+
+custom-instructions/
+├── instructions-v2.txt    ← Current version
+└── archive/
+    └── instructions-v1.txt
 ```
 
 | Prompt | Current | Description |
 |--------|---------|-------------|
-| Anki Flashcard | [v4](prompts/anki-flashcard/prompt-v4.txt) | Create Anki flashcard decks from PDFs |
-| Revision Notes | [v2](prompts/revision-notes/prompt-v2.txt) | Generate study notes from PDFs |
-| Custom Instructions | [v2](prompts/custom-instructions/instructions-v2.txt) | General behavioral guidelines for AI responses |
+| Anki Flashcard | [v4](anki-flashcard/prompt-v4.txt) | Create Anki flashcard decks from PDFs |
+| Revision Notes | [v2](revision-notes/prompt-v2.txt) | Generate study notes from PDFs |
+| Custom Instructions | [v2](custom-instructions/instructions-v2.txt) | General behavioral guidelines for AI responses |
 
 ## Custom Instructions
 
-The [`prompts/custom-instructions/instructions-v2.txt`](prompts/custom-instructions/instructions-v2.txt) file contains general guidelines for AI responses:
+The [`custom-instructions/instructions-v2.txt`](custom-instructions/instructions-v2.txt) file contains general guidelines for AI responses:
 
 - **Tone/Language**: Neutral, professional, natural tone with clear and concise English
 - **Formatting**: Logical structure with headings, bold for key points, no emojis
@@ -82,7 +83,7 @@ Create Anki-compatible flashcard decks from PDF documents. Version 4 is the late
 ### Usage
 
 1. Upload your PDF to the AI assistant
-2. Use the prompt from [`prompts/anki-flashcard/prompt-v4.txt`](prompts/anki-flashcard/prompt-v4.txt):
+2. Use the prompt from [`anki-flashcard/prompt-v4.txt`](anki-flashcard/prompt-v4.txt):
 
 ```
 Using this PDF as a reference, create a flashcards deck for Anki called [PDF Name].
@@ -112,7 +113,7 @@ Generate concise study notes from PDF references. Version 2 is the latest.
 ### Usage
 
 1. Upload your PDF to the AI assistant
-2. Use the prompt from [`prompts/revision-notes/prompt-v2.txt`](prompts/revision-notes/prompt-v2.txt):
+2. Use the prompt from [`revision-notes/prompt-v2.txt`](revision-notes/prompt-v2.txt):
 
 ```
 Using this PDF as a reference, write a concise notes on the topic with the exact title "[Topic title]".

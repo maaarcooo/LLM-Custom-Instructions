@@ -5,10 +5,10 @@
 ### What Exists
 - **README.md**: Comprehensive documentation with badges, Table of Contents, Quick Start guide, file descriptions, usage instructions, and version history
 - **LICENSE**: CC-BY-4.0 (Creative Commons Attribution 4.0 International)
-- **Organized prompts directory** with 8 prompt files:
-  - `prompts/anki-flashcard/` - Flashcard prompts (v1-v4, with v4 as current)
-  - `prompts/revision-notes/` - Revision notes prompts (v1-v2, with v2 as current)
-  - `prompts/custom-instructions/` - Custom instructions (v1-v2, with v2 as current)
+- **Organized prompt directories** with 8 prompt files:
+  - `anki-flashcard/` - Flashcard prompts (v1-v4, with v4 as current)
+  - `revision-notes/` - Revision notes prompts (v1-v2, with v2 as current)
+  - `custom-instructions/` - Custom instructions (v1-v2, with v2 as current)
   - Each category has an `archive/` subdirectory for older versions
 - **Git tags**: v1.0, v2.0, v2.5, v3.0, v4.0, v4.1
 - **GitHub releases**: Multiple releases published
@@ -96,27 +96,28 @@ This license is ideal for prompt/content collections - allows sharing and adapta
 
 **Priority: Medium** | **Status: ✅ Complete**
 
-Prompts reorganized into a structured directory layout:
+Prompts organized into directories at root level:
 ```
-prompts/
-├── anki-flashcard/
-│   ├── prompt-v4.txt          ← Current version
-│   └── archive/
-│       ├── v1.txt
-│       ├── v2.txt
-│       └── v3.txt
-├── revision-notes/
-│   ├── prompt-v2.txt          ← Current version
-│   └── archive/
-│       └── v1.txt
-└── custom-instructions/
-    ├── instructions-v2.txt    ← Current version
-    └── archive/
-        └── instructions-v1.txt
+anki-flashcard/
+├── prompt-v4.txt          ← Current version
+└── archive/
+    ├── v1.txt
+    ├── v2.txt
+    └── v3.txt
+
+revision-notes/
+├── prompt-v2.txt          ← Current version
+└── archive/
+    └── v1.txt
+
+custom-instructions/
+├── instructions-v2.txt    ← Current version
+└── archive/
+    └── instructions-v1.txt
 ```
 
 Benefits:
-- Clear separation by prompt category
+- Prompt directories at root for easy access
 - Archive directories preserve version history
 - Current versions easily identifiable
 - Scalable structure for future additions
