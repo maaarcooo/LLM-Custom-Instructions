@@ -32,21 +32,18 @@ A collection of customizable prompts and instructions for enhancing interactions
 
 ```
 anki-flashcard/
-├── prompt-v4.txt          ← Current version
-└── archive/
-    ├── prompt-v1.txt
-    ├── prompt-v2.txt
-    └── prompt-v3.txt
+├── prompt-v1.txt
+├── prompt-v2.txt
+├── prompt-v3.txt
+└── prompt-v4.txt          ← Current version
 
 revision-notes/
-├── prompt-v2.txt          ← Current version
-└── archive/
-    └── prompt-v1.txt
+├── prompt-v1.txt
+└── prompt-v2.txt          ← Current version
 
 custom-instructions/
-├── instructions-v2.txt    ← Current version
-└── archive/
-    └── instructions-v1.txt
+├── instructions-v1.txt
+└── instructions-v2.txt    ← Current version
 ```
 
 | Prompt | Current | Description |
